@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Grouping">
+		<groups>
+			<define name="ALL">
+				<include name="人" />
+				<include name="动物" />
+			</define>
+			<run>
+				<include name="ALL" />
+			</run>
+		</groups>
+		<classes>
+			<class name="cn.gloryroad.Grouping" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
