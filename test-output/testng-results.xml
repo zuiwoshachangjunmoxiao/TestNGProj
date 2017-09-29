@@ -1,43 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
-    <line>
-      <![CDATA[调用注销方法]]>
-    </line>
-    <line>
-      <![CDATA[调用打开浏览器的方法]]>
-    </line>
-    <line>
-      <![CDATA[调用登录方法]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71" started-at="2017-09-26T03:01:07Z" finished-at="2017-09-26T03:01:07Z">
+  <suite name="Default suite" duration-ms="33955" started-at="2017-09-29T02:50:23Z" finished-at="2017-09-29T02:50:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71" started-at="2017-09-26T03:01:07Z" finished-at="2017-09-26T03:01:07Z">
-      <class name="cn.gloryroad.TestngReporter">
-        <test-method status="PASS" signature="LogOut()[pri:0, instance:cn.gloryroad.TestngReporter@46d56d67]" name="LogOut" duration-ms="16" started-at="2017-09-26T11:01:07Z" finished-at="2017-09-26T11:01:07Z">
+    <test name="Default test" duration-ms="33955" started-at="2017-09-29T02:50:23Z" finished-at="2017-09-29T02:50:57Z">
+      <class name="cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="beforeMethod" is-config="true" duration-ms="5122" started-at="2017-09-29T10:50:23Z" finished-at="2017-09-29T10:50:28Z">
           <reporter-output>
-            <line>
-              <![CDATA[调用注销方法]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- LogOut -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:cn.gloryroad.TestngReporter@46d56d67]" name="OpenBrowser" duration-ms="2" started-at="2017-09-26T11:01:07Z" finished-at="2017-09-26T11:01:07Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="testSearch" duration-ms="2640" started-at="2017-09-29T10:50:28Z" data-provider="testData" finished-at="2017-09-29T10:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[光荣之路]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[上映日期]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2006-01-13]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[调用打开浏览器的方法]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="SingIn()[pri:0, instance:cn.gloryroad.TestngReporter@46d56d67]" name="SingIn" duration-ms="21" started-at="2017-09-26T11:01:07Z" finished-at="2017-09-26T11:01:07Z">
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="afterMethod" is-config="true" duration-ms="529" started-at="2017-09-29T10:50:31Z" finished-at="2017-09-29T10:50:31Z">
           <reporter-output>
-            <line>
-              <![CDATA[调用登录方法]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- SingIn -->
-      </class> <!-- cn.gloryroad.TestngReporter -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="beforeMethod" is-config="true" duration-ms="2907" started-at="2017-09-29T10:50:31Z" finished-at="2017-09-29T10:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="testSearch" duration-ms="2838" started-at="2017-09-29T10:50:34Z" data-provider="testData" finished-at="2017-09-29T10:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[功夫]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[周星驰]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="afterMethod" is-config="true" duration-ms="450" started-at="2017-09-29T10:50:37Z" finished-at="2017-09-29T10:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="beforeMethod" is-config="true" duration-ms="3156" started-at="2017-09-29T10:50:38Z" finished-at="2017-09-29T10:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="testSearch" duration-ms="3924" started-at="2017-09-29T10:50:41Z" data-provider="testData" finished-at="2017-09-29T10:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[超人]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[主演]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[克里斯托弗]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="afterMethod" is-config="true" duration-ms="436" started-at="2017-09-29T10:50:45Z" finished-at="2017-09-29T10:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="beforeMethod" is-config="true" duration-ms="2942" started-at="2017-09-29T10:50:45Z" finished-at="2017-09-29T10:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="testSearch" duration-ms="8085" started-at="2017-09-29T10:50:48Z" data-provider="testData" finished-at="2017-09-29T10:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[蝙蝠侠1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[女主角]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[凯蒂·赫尔姆斯]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase@5622fdf]" name="afterMethod" is-config="true" duration-ms="497" started-at="2017-09-29T10:50:56Z" finished-at="2017-09-29T10:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- cn.gloryroad.dataprovider.TestDataDrivenByMysqlDatabase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
